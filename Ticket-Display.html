@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Ticket</title>
+    <style>
+
+        body{
+            background-color: rgb(0, 0, 0 );
+            height: 1vh;
+        }
+        .final-ticket{
+            display: grid;
+            grid-template-rows: 120px 50px 1fr 50px;
+            width:400px;
+            height:500px; 
+            box-shadow:1px 1px 3px rgb(255, 255, 255, 0.3); 
+            margin-left: 35%;
+            margin-top: 50px;
+            background-color:  lightseagreen;
+        } 
+        .theatername p{
+            color:white;
+            font-size: 25px;
+            margin-left: 20px;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+        .theatername span{
+            color: orange;
+            font-size: 80px;
+            vertical-align: -15px;
+        }
+        .deign p{
+            color:black;
+            margin-left: -25px;
+            margin-right: -20px;
+            letter-spacing: 0.2px;
+            margin-top:-10px;
+            font-size: 30px;
+
+        }
+        .deign span{ 
+            font-size: 80px;
+            vertical-align: -10px;
+        }
+        .rightcircle{
+            margin-left: 5px;
+        }
+        .leftcircle{
+            margin-right: 12px;
+        }
+        .ticket-show{
+            display: grid;
+            grid-template-columns:1fr;
+        } 
+        .amount-block{
+            color:white;
+            letter-spacing: 1px;
+            line-height: 20px;
+            margin: 30px;
+            font-size: 20px;
+        }
+        .thank-cls p{
+            color:orange;
+            font-size: 30px;
+            margin-top: 0px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="final-ticket"> 
+        <div class="theatername">
+            <p><span>&#9733</span> Radha Multiplex <span>&#9733</span></p>
+        </div>
+        <div class="deign">
+            <p><span class="leftcircle">&#9679</span>&#9679 &#9679 &#9679 &#9679 &#9679 &#9679 &#9679 &#9679 &#9679 &#9679 &#9679 &#9679 &#9679<span class="rightcircle">&#9679</span></p>
+        </div>
+        <div class="ticket-show">
+            <div class="amount-block">
+             <p>Movie : avengers-infinity-war</p>
+             <p>Total no . of seat : 2</p>
+             <p>Date : 20/3/2025</p>
+             <p>Show Time : 11.30 AM</p>
+             <p>Seat no :E10, E11</p>
+            </div> 
+        </div>
+        <div class="thank-cls">
+            <p>------- Thank You -------</p>
+        </div>
+    </div>
+</body>
+</html>
