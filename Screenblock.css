@@ -161,10 +161,8 @@ body{
 .R1, 
 .emptyrow, .emptybox{ 
     
-    background-image: url("images1.png");
-    background-size: 100% 100%;
-    background-position: center;  
-    color:rgb(157, 255, 0);
+    background: black; 
+    color:white;
     text-align: center;
     font-size: 8px;
     margin: 2px;
