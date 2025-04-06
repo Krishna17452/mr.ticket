@@ -1,0 +1,255 @@
+body{
+    background-color: black;
+
+}
+.confirmation{
+    width:400px;
+    height:200px;
+     background-color: rgba(197, 197, 197, 0.3);
+    box-shadow: 1px 1px 2px rgb(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 6px;
+    margin: 12%;
+    margin-left: 450px;
+}
+.confirmation p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bold;
+}
+.confirmation button{
+    background-color: green;
+    color:black;
+    padding:15px 30px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.screen-main-block-cls{
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    height: 1vh;
+}
+.screen-side1{ 
+    display: grid;
+    grid-template-rows:2fr 1fr;
+    margin: 5px;   
+    padding:6px;
+    box-shadow: 1px 1px 3px rgb(255, 255, 255, 0.5);
+}  
+.movie-img-cls{
+    display: grid;
+    grid-template-rows:50px 1fr 1fr;  
+}
+.movie-img-boxes{
+    display: grid;
+    grid-template-rows:1fr 40px;  
+    margin-top: 5px;
+} 
+.first-movie-img{
+    background-image: url('avengers-infinity.jpg');
+    background-size: 100% 100%;
+    background-position: center; 
+}
+.second-movie-img{
+    background-image: url('avengers-infinity-war.jpg');
+    background-size: 100% 100%;
+    background-position: center; 
+}
+.first-movie-name, .second-movie-name{
+    color:white;
+    font-size: 15px;
+    background-color: rgb(184, 180, 180, 0.3);
+    padding-left: 5px;
+    letter-spacing: 2px;
+}
+.moive-timing-cls{ 
+    height: 200px; 
+    color:white;
+}
+.timing-but{
+    border: none;
+    border-radius: 6px;
+    background-color: green;
+    color:white;
+    padding: 10px;
+    margin: 10px; 
+}
+
+.screen-side2{  
+    display: grid;
+    grid-template-columns:1.5fr 1fr;
+    margin: 20px; 
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255, 0.5);
+}  
+.booking-block1{
+    display: grid;
+    grid-template-rows:0.5fr 2fr 2fr;
+} 
+.theater-name-cls{
+    color:white;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.movieimg1, .movieimg2 {
+    background-image: url('avengers-infinity.jpg');
+    background-size: 100% 100%;
+    background-position: center; 
+    margin: 6px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255, 0.5);
+    height:200px;
+}
+.movieimg2 {
+    background-image: url('avengers-infinity-war.jpg'); 
+}
+.moviname p{ 
+    margin-left: 30px;
+    margin-bottom: -20px;
+    color:rgb(212, 211, 211); 
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.no-seats-block{ 
+    color:rgb(212, 211, 211); 
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.movieimg-block{
+    display: grid;
+    grid-template-columns:0.5fr 1fr;
+} 
+.seats-block{
+    display: grid;
+    grid-template-rows:1fr 1fr; 
+} 
+.calculation-block{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+}
+.calculation p{
+    color:white;
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+.calculation-button{
+    border: none;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 12px 25px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+.booking-block2{
+    display: none;
+    grid-template-rows:2fr 50px;
+} 
+.qr-block{
+background-image: url('Qr.jpg');
+    background-size: 100% 100%;
+    background-position: center; 
+    margin: 6px;
+    border-radius: 4px;
+}
+.ads-block{
+color:white;
+font-size: 30px;
+letter-spacing: 2px;
+font-weight: bold;
+padding-left: 130px;
+background-color: rgb(63, 62, 62, 0.5); 
+}
+.ADblock{
+border:2px solid gray;
+color: white;
+font-size: 20px;
+margin-top: 4px;
+text-align: center;
+justify-content: center;
+}
+.upcoming{
+width:100%;
+border: 2px solid green;
+align-items: center;
+text-align: center;
+color:white;
+font-size: 15px;
+}
+
+
+
+.final-ticket{
+    display: grid;
+    grid-template-rows: 120px 50px 1fr 50px;
+    width:400px;
+    height:520px; 
+    box-shadow:1px 1px 3px rgb(255, 255, 255, 0.3); 
+    margin-left: 35%;
+    margin-top: 50px;
+    background-color:  lightseagreen;
+} 
+.theatername p{
+    color:white;
+    font-size: 25px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.theatername span{
+    color: orange;
+    font-size: 80px;
+    vertical-align: -15px;
+}
+.deign p{
+    color:black;
+    margin-left: -25px;
+    margin-right: -20px;
+    letter-spacing: 0.2px;
+    margin-top:-10px;
+    font-size: 30px;
+
+}
+.deign span{ 
+    font-size: 80px;
+    vertical-align: -10px;
+}
+.rightcircle{
+    margin-left: 5px;
+}
+.leftcircle{
+    margin-right: 12px;
+}
+.ticket-show{
+    display: grid;
+    grid-template-columns:1fr;
+} 
+.amount-block{
+    color:white;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 30px;
+    font-size: 20px;
+}
+.thank-cls p{
+    color:orange;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
